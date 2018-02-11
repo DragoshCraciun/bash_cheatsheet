@@ -1,2 +1,17 @@
-# bash_cheatsheet
-A cheatsheet for bash.
+# Bash Cheatsheet
+
+This is a "cheat sheet" of Bash commands I curently know and use:
+
+<h3>Basic Console Commands</h3>
+
+Command | Description | Options
+------------ | ------------- | -------------
+`cd <directory path>` | "change directory" -<br>changes the folder you are operating in. | `~` - to home directory<br>`../` - up one folder
+`mkdir <folder name>` | "make directory" -<br>creates a new folder. |
+`pwd` | "print working directory" -<br>displays the file path of the folder you are working in. |
+`ls` | "list" -<br>lists files and folders in the folder you are working in | `-a` - list hidden files too
+`touch <filename>` | creates a new file |
+`explorer` | Open the current folder in Windows Explorer |
+`echo 'alias <alias-name>="<path>"' >> ~/.bashrc` | Add the specified line into my .bashrc file <br> this will create an shortcut for the specified program |
+`vim <file>` | Open the specified file into vim text editor |
+`ctrl+z` | Stops the process | `jobs` - view jobs you have running <br>`fg 1` - resume a stopped job, for just one job fg is enough
